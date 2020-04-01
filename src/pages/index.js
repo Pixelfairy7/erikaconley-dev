@@ -1,9 +1,10 @@
 import React from "react"
 import Layout from "../components/layout"
+import styles from "./index.module.scss"
 
 export default () => (
   <Layout>
-    <span>&#123;Hello&#125;</span>
+    <span className={styles.hello}>&#123;Hello&#125;</span>
     <h1>Erika Conley</h1>
     <p>Front End Web Developer</p>
     <p>

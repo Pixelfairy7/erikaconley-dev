@@ -7,5 +7,18 @@ export default () => (
     <div className={styles.name}>
       <Link to="/">Erika</Link>
     </div>
+    <nav>
+      <ul>
+        <li>
+          <Link to="/about">About</Link>
+        </li>
+        <li>
+          <Link to="/">Projects</Link>
+        </li>
+        <li>
+          <Link to="/">Blog</Link>
+        </li>
+      </ul>
+    </nav>
   </header>
 )

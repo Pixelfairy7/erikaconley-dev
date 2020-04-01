@@ -2,5 +2,19 @@
 
 .container {
   display: grid;
-  height: 15vh;
+  height: 100vh;
+  width: 20vw;
+  background-color: pink;
+  text-align: center;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+}
+ul {
+  li {
+    list-style: none;
+    padding: 30px;
+    margin: 10px;
+  }
 }
