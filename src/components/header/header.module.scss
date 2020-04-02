@@ -2,19 +2,20 @@
 
 .container {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
   min-height: 20vh;
-  width: 100vw;
+  width: 80vw;
+  margin: auto;
   text-align: center;
   font-family: $main-display;
   font-weight: 800;
 }
-header > * {
-  background-color: pink;
-}
+
 ul {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
   li {
     list-style: none;
     padding-right: 30px;
@@ -24,15 +25,13 @@ ul {
 }
 .name {
   padding-top: 40px;
-  width: auto;
   color: $main-gray;
-  flex-grow: 1;
 }
 .nameAccent {
   color: $accent-pink;
 }
-.nav {
+.navLink {
   color: $main-gray;
-  font-size: 2.5em;
-  flex-grow: 2;
+  font-size: 2.5rem;
+  text-decoration: none;
 }
