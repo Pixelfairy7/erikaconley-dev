@@ -1,5 +1,12 @@
 //define global styles like foonts, colors etc
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap");
 * {
   margin: 0;
   padding: 0;
 }
+
+//fonts
+$main-display: Montserrat, sans-serif;
+//colors
+$main-gray: #707070;
+$accent-pink: #f51aa4;

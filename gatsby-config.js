@@ -5,5 +5,22 @@
  */
 
 module.exports = {
-  plugins: [`gatsby-plugin-sass`],
+  plugins: [
+    `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Montserrat`,
+            variants [`800`]
+          },
+          {
+            family: `Open Sans`,
+            variants: [`400`, `700`],
+          },
+        ],
+      },
+    },
+  ],
 }
